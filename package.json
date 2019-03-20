@@ -1,0 +1,26 @@
+{
+  "name": "phonebook-api",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API that allows the ability to create, read, update and delete entries. It uses a MongoDB database.",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/N6Rayan/phonebook-api/src"
+  },
+  "keywords": [
+    "Node.js",
+    "MongoDB",
+    "Phonebook"
+  ],
+  "author": "Nour Rayan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
