@@ -14,3 +14,5 @@ app.get('/', (req, res) => {
 app.listen(3001, () => {
     console.log(`Listening on port 3001.\nGo to http://localhost:3001`);
 });
+
+module.exports = app;

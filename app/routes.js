@@ -25,7 +25,7 @@ router.post('/', (req, res) => {
     })
     .then(contact => res.send({
         success: 1,
-        message: "Contacted created",
+        message: "Contact created",
         id: contact._id
     }))
     .catch(err => res.send({
