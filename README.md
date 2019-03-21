@@ -17,12 +17,24 @@ What things you need to install:
 A step by step series of examples that tell you how to get a development environment running.
 
 * Clone Repository: `git clone git@bitbucket.org:N6Rayan/phonebook-api.git`
-
 * Install Dependencies: `npm install`
 * Start App Locally: `npm start`
-
 * Get All Contacts: `GET /contact`
 
 ## Running the tests
 
 To run tests, simply run `npm test`.
+
+## Testing API Endpoints
+
+* Fetch all contacts:
+
+```curl http://localhost:3001/contact```
+
+* Fetch individual contact:
+
+```curl http://localhost:3001/contact/{contactId}```
+
+* Create contact:
+
+```curl -H "Content-Type: application/json" -X POST -d '{"name":"Bob","phoneNumber":"07123456789","address":"123 Somee Road"}' http://URL/```
